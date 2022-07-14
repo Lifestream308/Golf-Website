@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 0 5%;
+        }
+        nav h1 {
+            color: rgb(0, 230, 0);
+            font-size: xx-large;
+        }
+        .nav-list {
+            padding: 0rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav-list a {
+            text-decoration: none;
+            padding: 1rem;
+            margin: 1rem;
+            color: blue;
+        }
+        .nav-list a:hover {
+            background-color: rgb(85, 153, 255);
+            color: white;
+        }
+        .img1 {
+            width: 100%;
+        }
+        .img-container {position: relative;}
+        .img1 {}
+        .img-text {
+            position: absolute;
+            text-align: center;
+            color: white;
+            font-size: 230%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .banner {
+            background-color: blue;
+            color: white;
+            font-size: 250%;
+            margin-top: -.3rem;
+            padding: 1rem;
+            text-align: center;
+        }
+        .trainers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 0 5%;
+        }
+        /* .trainers div {width: 50%;} */
+        .img-container2 {}
+        .img-container2 img {width: 100%;}
+
+    </style>
+    <title>Golf Temple</title>
+</head>
+<body>
+    <nav>
+        <h1>Golf Temple</h1>
+        <div class="nav-list">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Sign In</a>
+            <a href="">Sign Out</a>
+        </div>
+    </nav>
+
+    <section class="img-container">
+        <img class="img1" src="images/golf-course.jpg" alt="Golf Course">
+        <h2 class="img-text">Your Best Life</h2>
+    </section>
+
+    <section>
+        <h2 class="banner">America's #1 Golf Course</h2>
+    </section>
+
+    <section class="trainers">
+        <div>
+            <h2>The Best Trainers</h2>
+            <p>Whether you're a beginner, or looking to go Pro, we have dedicated trainers to help you reach your goals. Here is my sales pitch. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic architecto qui veniam nulla laboriosam inventore itaque earum quos libero sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolor ea eius veniam maiores autem quod quia rem, dolorem culpa.</p>
+        </div>
+        <div class="img-container2">
+            <img src="images/golftraining.jpg" alt="Golf Training">
+        </div>
+    </section>
+
+    <section class="trainers">
+        <div>
+            <h2>Sign up NOW!</h2>
+            <p>Join the membership while you still can! Capacity is limited. Whether you're a beginner, or looking to go Pro, we have dedicated trainers to help you reach your goals. Here is my sales pitch. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic architecto qui veniam nulla laboriosam inventore itaque earum quos libero sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolor ea eius veniam maiores autem quod quia rem, dolorem culpa.</p>
+        </div>
+        <div class="img-container2">
+            <img src="images/golfmembers.jpg" alt="Golf Membership">
+        </div>
+    </section>
+
+<!-- About Us page can have grid of Testimonials across, then columns underneath with lorem of the testimonials. Sign in can say "Join/Your Community" -->
+
+</body>
+</html>
