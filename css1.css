@@ -97,3 +97,23 @@ nav h1 {
     "main2 main2 main2 ."
     "footer1 footer1 footer1 footer1"
 }
+
+/* Sign In CSS */
+.container2 {
+    border: 1px lightgrey solid;
+    max-width: 30rem;
+    min-width: max-content;
+    margin: 0 auto 3rem auto;
+    padding: 0rem 0rem 0rem 1rem;
+    text-align: left;
+}
+.container2 h1 {margin: .5rem; font-weight: normal;}
+.button {width: 60%; margin: 1rem 20% 0rem 20%; padding: 0rem; border-radius: 3px;}
+.color1 {background-color: rgba(211, 255, 100, 0.5);}
+ul {margin: 1.5rem 0;}
+ul li {margin: 5px;}
+.space2 {margin: 1rem 0 1rem 0;}
+
+footer {text-align: center; padding-top: 2rem;}
+footer a {margin:1rem;}
+footer p {margin-top: 2rem;}
