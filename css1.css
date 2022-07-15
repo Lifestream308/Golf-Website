@@ -61,13 +61,20 @@ nav h1 {
     grid-template-columns: 1fr 1fr;
     padding: 0 5%;
 }
-/* .trainers div {width: 50%;} */
 .img-container2 img {width: 100%;}
 .flex {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+.align {
+    margin-left: 15%;
+    border-radius: 1rem;
+    background-color: rgba(211, 255, 100, 0.5);
+    width: fit-content;
+    padding: 1rem;
+}
+
 .header1 {background-color: rgb(255, 45, 45, 0.5); grid-area: header1;}
 .main {background-color: rgb(39, 39, 255, 0.5); grid-area: main;}
 .side {background-color: rgb(255, 143, 161, 0.5); grid-area: side;}
@@ -75,14 +82,14 @@ nav h1 {
 .footer1 {background-color: rgb(26, 255, 255, 0.5); grid-area: footer1;}
 
 .header1, .main, .side, .main2, .footer1 {
-    padding: 3rem;
+    padding: 1rem;
     margin: 3px;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     text-align: center;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     "header1 header1 header1 header1"
